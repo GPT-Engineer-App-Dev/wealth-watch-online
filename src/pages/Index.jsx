@@ -2,7 +2,7 @@ import { Box, Container, Flex, Heading, Link, Text, VStack, HStack, Spacer, Divi
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={0}>
+    <Container maxW="container.xl" p={0} bg="#f3f2ef">
       {/* Navigation Bar */}
       <Flex as="nav" bg="gray.800" color="white" p={4} align="center">
         <Heading size="md">Financial Times</Heading>
